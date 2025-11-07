@@ -95,8 +95,6 @@ router.post('/apply', async (req, res) => {
       aadhaarNumber,
       email,
       certificateHolderName,
-      dateOfBirth,
-      dateOfRegistration,
       paymentScreenshot
     } = req.body;
 
@@ -108,8 +106,6 @@ router.post('/apply', async (req, res) => {
       aadhaarNumber,
       email,
       certificateHolderName,
-      dateOfBirth,
-      dateOfRegistration,
       paymentScreenshot
     });
 

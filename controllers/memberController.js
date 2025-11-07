@@ -2,7 +2,7 @@ import Member from '../models/Member.js';
 
 export const getAllMembers = async (req, res) => {
   try {
-    const { department, page = 1, limit = 10 } = req.query;
+    const { department, page = 1, limit = 20 } = req.query;
     
     const query = { isActive: true };
     if (department) {

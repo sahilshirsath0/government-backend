@@ -33,7 +33,8 @@ app.use(cors({
     "https://government-frontend-steel.vercel.app",
     "https://government-user-frontend.vercel.app",
     "https://sawargaongrampanchayat.site",
-    "https://www.sawargaongrampanchayat.site"
+    "https://www.sawargaongrampanchayat.site",
+    "http://localhost:5174/"
   ],
   credentials: true,
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
