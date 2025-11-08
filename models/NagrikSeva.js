@@ -45,13 +45,6 @@ const nagrikSevaApplicationSchema = new mongoose.Schema({
     type: String,
     required: true
   },
-  dateOfBirth: {
-    type: Date,
-    required: true
-  },
-  dateOfRegistration: {
-    type: Date
-  },
   paymentScreenshot: {
     data: String, // Base64 image data
     contentType: String,
